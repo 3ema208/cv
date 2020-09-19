@@ -1,19 +1,16 @@
 import React from "react"
 import { Container, Typography } from "@material-ui/core";
+import EducationBlock from "./EducationBlock";
 
 
 export default class Education extends React.Component {
     render(){
         return (
             <Container>
-                <Typography variant="h6">
+                <Typography variant="h5">
                     Education
                 </Typography>
-                <Container>
-                    <Typography>
-                        2010.09.01 - 2017.06.22
-                    </Typography>
-                </Container>
+                <EducationBlock></EducationBlock>
             </Container>
         )
     }

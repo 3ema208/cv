@@ -1,3 +1,8 @@
 .App {
     
 }
+
+@font-face {
+    font-family: 'Marlboro';
+    src: local('Marlboro'), url(./Marlboro.ttf);
+}

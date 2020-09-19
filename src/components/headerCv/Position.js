@@ -4,7 +4,7 @@ import { Typography } from "@material-ui/core";
 
 export default function Position(props){
     return (
-        <Typography variant='h4'>
+        <Typography variant='h4' gutterBottom>
             {props.position}
         </Typography>
     )
