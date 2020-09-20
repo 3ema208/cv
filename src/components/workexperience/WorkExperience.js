@@ -33,7 +33,7 @@ export default () => {
             ],
             technology: [
                 "Python", "PyQt",
-                "PySide", "QML", "Django", "Django Rest", 
+                "PySide", "QML", "asyncio", "Django", "Django Rest", 
                 "pySerial", "PyInstaller", "Jenkins", "CI/CD", "BuildBot",
                 "Docker", "MySql", "Postgres", "pytest",
                 "Linux", "Windows", "Armbian"
