@@ -23,8 +23,46 @@ export default () => {
             companyLink: "https://ajax.systems",
             dataWork: "August 2017 - Present",
             desription: [
-                "Make gui app for manufactoring Ajax."
-            ]
+                "Manage small team of python software engineers",
+                "Manage software testing processes",
+                "Cross-platform GUI application development",
+                "Development QA tools for manual QA engineer",
+                "UI and API web development",
+                "Design and implement SQL database architecture",
+                "Support and refactoring existing projects",
+            ],
+            technology: [
+                "Python", "PyQt",
+                "PySide", "QML", "Django", "Django Rest", 
+                "pySerial", "PyInstaller", "Jenkins", "CI/CD", "BuildBot",
+                "Docker", "MySql", "Postgres", "pytest",
+                "Linux", "Windows", "Armbian"
+            ],
+        },        
+        {
+            position: "Junior Python Developer",
+            companyName: "MaAO",
+            companyLink: "#",
+            dataWork: "May 2017 - June 2017",
+            desription: [
+                "Odoo addons development",
+                "Front-end development"
+            ],
+            technology: [
+                "Python", "Odoo", "HTML", "CSS", "JavaScript", "Bootstrap",
+            ],
+        },
+        {
+            position: "Python Developer",
+            companyName: "Freelance",
+            companyLink: "#",
+            dataWork: "May 2016 - Oct 2017",
+            desription: [
+                "Data parsing",
+                "Scraping web sites",
+                "Develop bots (telegram)",
+            ],
+            technology: [],
         },
     ]
     const classes = useStyle()

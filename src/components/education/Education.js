@@ -19,7 +19,7 @@ export default () => {
         university: "National Technical University of Ukraine 'Kyiv Polytechnic Institute'​",
         degree: "Master of Art",
         date: "2011-2017",
-        category: "Acoustics and Electronics Engineering"
+        category: "Acoustic and Electronic Engineering"
     }
     const classes = useStyle()
     return (

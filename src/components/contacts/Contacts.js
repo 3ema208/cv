@@ -16,9 +16,11 @@ const useStyle = makeStyles(theme => ({
 
 export default () => {
     const contacts = [
-        {'name': 'cell', 'value': "+380633289970"},
-        {'name': 'email', 'value': "nedobytko.r@gmail.com"},
-        {'name': 'telegram', 'value': "@RomanNedobytko"},
+        {'name': 'phone', 'value': "+380633289970", 'isLink': false},
+        {'name': 'email', 'value': "nedobytko.r@gmail.com", 'isLink': true},
+        {'name': 'linkedIn', 'value': "https://www.linkedin.com/in/roman-nedobytko-4456a2b5", 'isLink': true},
+        {'name': 'telegram', 'value': "@RomanNedobytko", 'isLink': false},
+        {'name': 'location', 'value': "Kyiv, Ukraine", 'isLink': false},
     ]
     const classes = useStyle()
     return (

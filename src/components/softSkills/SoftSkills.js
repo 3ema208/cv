@@ -14,13 +14,19 @@ const useStyle = makeStyles(theme => ({
 }))
 
 export default () => {
-    const data = `Software Engineer with knowledge agile methodology without afraid make project with scratch. 
-    Now I'm looking for new challenge me and will be glad become a part of your team.`
     const classes = useStyle()
+    const data = {
+        head: "Soft Skills",
+        skills: ["Critical thinker", "Team player", "Multi-tasking", 'Fast learner', "Good communication"]
+    }
     return (
         <Container className={classes.root}>
-            <Typography variant="h5" className={classes.header}>SUMMARY</Typography>
-            <Typography variant='body1'>{data}</Typography>
+            <Typography variant="h5" className={classes.header}>{data.head}</Typography>
+            <div>
+                {data.skills.map((s)=>{return(
+                    <Typography>- {s}</Typography>
+                )})}
+            </div>
         </Container>
     )
 }

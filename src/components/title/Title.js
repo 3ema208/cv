@@ -15,7 +15,7 @@ export default ()=>{
     return (
         <Container className={classes.title}>
             <Typography variant='h2'>Roman Nedobytko</Typography>
-            <Typography variant='h4'>Software Engineer</Typography>
+            <Typography variant='h4'>Python Software Engineer</Typography>
         </Container>
     )
 }

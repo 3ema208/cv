@@ -20,9 +20,8 @@ export default () => {
         link: "https://codespace.com.ua/",
         degree: "Advanced Python",
         desc: [
-            'Django',
-            "Selenium",
-            "BeHave"            
+            'Learn freamworks',
+            "Cooked python",    
         ]
     }
     const classes = useStyle()
@@ -31,9 +30,9 @@ export default () => {
             <Typography variant="h5" className={classes.header}>ADDITIONAL EDUCATIONAL</Typography>
             <Typography><Link underline='always' color="textPrimary" href={dataAdditionalEducation.link}>{dataAdditionalEducation.name}</Link> | May 2017 - Jule 2017</Typography>
             <Typography>{dataAdditionalEducation.degree}</Typography>
-            <ul>
-                {dataAdditionalEducation.desc.map((i, ii)=>{return (<li>{ii}</li>)})}
-            </ul>
+            {dataAdditionalEducation.desc.map((d) => {return(
+                <Typography> - {d}</Typography>
+            )})}
         </Container>
     )
 }
