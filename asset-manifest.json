@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.7fe9eaa8.chunk.css",
+    "main.js": "/cv/static/js/main.7b362456.chunk.js",
+    "main.js.map": "/cv/static/js/main.7b362456.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.76204999.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.76204999.js.map",
+    "static/js/2.87c1a377.chunk.js": "/cv/static/js/2.87c1a377.chunk.js",
+    "static/js/2.87c1a377.chunk.js.map": "/cv/static/js/2.87c1a377.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "precache-manifest.2c7b186d6f847289a5b732695221ff8a.js": "/cv/precache-manifest.2c7b186d6f847289a5b732695221ff8a.js",
+    "service-worker.js": "/cv/service-worker.js",
+    "static/css/main.7fe9eaa8.chunk.css.map": "/cv/static/css/main.7fe9eaa8.chunk.css.map",
+    "static/js/2.87c1a377.chunk.js.LICENSE.txt": "/cv/static/js/2.87c1a377.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cv/static/media/Marlboro.806fc86d.ttf",
+    "static/media/avatar.jpg": "/cv/static/media/avatar.9dc5a018.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76204999.js",
+    "static/js/2.87c1a377.chunk.js",
+    "static/css/main.7fe9eaa8.chunk.css",
+    "static/js/main.7b362456.chunk.js"
+  ]
+}
