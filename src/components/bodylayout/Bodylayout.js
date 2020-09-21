@@ -23,7 +23,7 @@ export default () => {
     const classes = useStyle()
     return (
         <Grid container className={classes.root} spacing={2}>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={12} md={6}>
                 <Grid container direction='column' spacing={1}>
                     <Grid item>
                         <Paper className={classes.item}>
@@ -42,7 +42,7 @@ export default () => {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={12} md={6}>
                 <Grid container direction='column' spacing={1}>
                     <Grid item>
                        <Paper className={classes.item}>

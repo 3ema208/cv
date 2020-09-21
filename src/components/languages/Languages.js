@@ -34,7 +34,7 @@ export default () => {
     }
     return (
         <Container className={classes.root}>
-            <Typography variant="h5" className={classes.header}>Languages</Typography>
+            <Typography variant="h5" className={classes.header}>LANGUAGES</Typography>
             <div>
                 {data.lang.map((l)=>{
                     return (

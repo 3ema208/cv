@@ -23,6 +23,7 @@ const useStyle = makeStyles(theme => ({
 
 export default () => {
     const hobby = [
+        "Traveling",
         "Football",
         "Billiard",
         "Programing", 
@@ -31,7 +32,7 @@ export default () => {
     const classes = useStyle()
     return (
         <Container className={classes.root}>
-            <Typography variant="h5" className={classes.header}>HOBBY</Typography>
+            <Typography variant="h5" className={classes.header}>HOBBIES</Typography>
             <div className={classes.chips}>
                 {
                     hobby.map((h)=>{

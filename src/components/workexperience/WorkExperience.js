@@ -32,11 +32,10 @@ export default () => {
                 "Support and refactoring existing projects",
             ],
             technology: [
-                "Python", "PyQt",
-                "PySide", "QML", "asyncio", "Django", "Django Rest", 
-                "pySerial", "PyInstaller", "Jenkins", "CI/CD", "BuildBot",
-                "Docker", "MySql", "Postgres", "pytest",
-                "Linux", "Windows", "Armbian"
+                "Python", "PyQt", "PySide", "QML", "asyncio", 
+                "Django", "Django Rest", "pySerial", "PyInstaller", 
+                "Jenkins", "CI/CD", "BuildBot", "Docker", "MySql", 
+                "Postgres", "pytest", "git", "AWS", "Linux", "Windows", "Armbian", 
             ],
         },        
         {

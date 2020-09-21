@@ -14,8 +14,10 @@ const useStyle = makeStyles(theme => ({
 }))
 
 export default () => {
-    const data = `Software Engineer with knowledge agile methodology without afraid make project with scratch. 
-    Now I'm looking for new challenge me and will be glad become a part of your team.`
+    const data = `
+    Software Engineer with 4+ years experience and knowledge agile methodology without afraid make project with scratch.
+    Now I'm looking for new challenging me and will be glad become a part of your team. I like to learn new technology and solve hard situation. 
+    I fast learn new and fast understand in exists projects.`
     const classes = useStyle()
     return (
         <Container className={classes.root}>

@@ -16,8 +16,8 @@ const useStyle = makeStyles(theme => ({
 export default () => {
     const classes = useStyle()
     const data = {
-        head: "Soft Skills",
-        skills: ["Critical thinker", "Team player", "Multi-tasking", 'Fast learner', "Good communication"]
+        head: "SOFT SKILLS",
+        skills: ["Critical thinker", "Team player", "Multi-tasking", 'Fast learner', "Good communication", "Problem-Solving", "Creativity"]
     }
     return (
         <Container className={classes.root}>
