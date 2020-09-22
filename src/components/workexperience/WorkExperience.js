@@ -42,7 +42,7 @@ export default () => {
             position: "Junior Python Developer",
             companyName: "MaAO",
             companyLink: "#",
-            dataWork: "May 2017 - Jule 2017",
+            dataWork: "May 2017 - July 2017",
             desription: [
                 "Odoo addons development",
                 "Front-end development"

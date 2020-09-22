@@ -28,7 +28,7 @@ export default () => {
     return (
         <Container className={classes.root}>
             <Typography variant="h5" className={classes.header}>ADDITIONAL EDUCATIONAL</Typography>
-            <Typography><Link underline='always' color="textPrimary" href={dataAdditionalEducation.link}>{dataAdditionalEducation.name}</Link> | May 2017 - Jule 2017</Typography>
+            <Typography><Link underline='always' color="textPrimary" href={dataAdditionalEducation.link}>{dataAdditionalEducation.name}</Link> | May 2017 - June 2017</Typography>
             <Typography>{dataAdditionalEducation.degree}</Typography>
             {dataAdditionalEducation.desc.map((d) => {return(
                 <Typography> - {d}</Typography>

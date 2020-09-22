@@ -10,8 +10,20 @@ import Title from "./components/title/Title"
 
 const Theme = createMuiTheme({
   typography: {
-    "fontFamily": "Marlboro",
-    "fontSize": 16
+    h2: {
+      "fontFamily": "Malboro"
+    },
+    h4: {
+      fontFamily: "Malboro",
+    },
+    h5: {
+      "fontFamily": "Malboro"
+    },
+    h6: {
+      "fontFamily": "Malboro",
+    },
+    "fontFamily": "Roboto",
+    "fontSize": 14,
   },
 })
 
