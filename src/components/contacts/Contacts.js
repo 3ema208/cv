@@ -20,6 +20,7 @@ export default () => {
         {'name': 'email', 'value': "nedobytko.r@gmail.com", 'isLink': true},
         {'name': 'linkedIn', 'value': "https://www.linkedin.com/in/roman-nedobytko-4456a2b5", 'isLink': true},
         {'name': 'telegram', 'value': "@RomanNedobytko", 'isLink': false},
+        {'name': 'skype', 'value': "live:.cid.6c0d23aba2ccb558", 'isLink': false},
         {'name': 'location', 'value': "Kyiv, Ukraine", 'isLink': false},
     ]
     const classes = useStyle()

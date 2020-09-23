@@ -20,8 +20,7 @@ export default () => {
         link: "https://codespace.com.ua/",
         degree: "Advanced Python",
         desc: [
-            'Learn freamworks',
-            "Cooked python",    
+            'Learn frameworks'
         ]
     }
     const classes = useStyle()

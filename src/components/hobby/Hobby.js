@@ -23,10 +23,10 @@ const useStyle = makeStyles(theme => ({
 
 export default () => {
     const hobby = [
+        "Programing", 
         "Traveling",
         "Football",
         "Billiard",
-        "Programing", 
         "Music",
     ]
     const classes = useStyle()

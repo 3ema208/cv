@@ -24,7 +24,6 @@ export default () => {
             dataWork: "August 2017 - Present",
             desription: [
                 "Manage small team of python software engineers",
-                "Manage software testing processes",
                 "Cross-platform GUI application development",
                 "Development QA tools for manual QA engineer",
                 "UI and API web development",
@@ -32,10 +31,11 @@ export default () => {
                 "Support and refactoring existing projects",
             ],
             technology: [
-                "Python", "PyQt", "PySide", "QML", "asyncio", 
-                "Django", "Django Rest", "pySerial", "PyInstaller", 
-                "Jenkins", "CI/CD", "BuildBot", "Docker", "MySql", 
-                "Postgres", "pytest", "git", "AWS", "Linux", "Windows", "Armbian", 
+                "Python", "PyQt5", "PySide2", "QML", "asyncio", 
+                "threading", "multiprocessing", "pymysql", "sqlalchemy",
+                "Django", "Django Rest", "Jenkins", "BuildBot",
+                "Docker", "MySql", "Postgres", "pytest", "git", 
+                "AWS", "pySerial", "PyInstaller", "Linux", "Windows",
             ],
         },        
         {
@@ -48,14 +48,14 @@ export default () => {
                 "Front-end development"
             ],
             technology: [
-                "Python", "Odoo", "HTML", "CSS", "JavaScript", "Bootstrap",
+                "Python", "Odoo", "Postgres", "HTML", "CSS", "JavaScript", "Bootstrap",
             ],
         },
         {
             position: "Python Developer",
             companyName: "Freelance",
             companyLink: "#",
-            dataWork: "May 2016 - Oct 2017",
+            dataWork: "May 2016 - May 2017",
             desription: [
                 "Data parsing",
                 "Scraping web sites",
